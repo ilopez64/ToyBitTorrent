@@ -69,7 +69,12 @@ For a leecher client,
 
 Commands should be ran in this order, as there needs to first be a tracker server
 to keep track of all peers and there must also first be a seeder for a leecher to
-download from
+download from.
+
+Included are sample files that can be used to test the client. Transmission on MacOS
+was used to create the torrent files for both moby.txt and moby.jpg. New torrent files
+must be created since the tracker server IP addresses in these torrent files may be different from 
+the IP address that will be ran locally.
 
 ## References
 
