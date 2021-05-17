@@ -1,8 +1,5 @@
 import bencoding
 from hashlib import sha1
-
-
-
 class Torrent:
       def __init__(self, torrentFilename):
           torrentFile = open(torrentFilename,'rb') # the 'rb' is for read binary format
