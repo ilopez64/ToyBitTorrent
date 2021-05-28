@@ -35,7 +35,7 @@ The pieces are all requested in order, not implementing
 a rarestfirst algorithm, and the pieces are all kept in memory until 
 the entire torrent is downloaded.
 
-### Code walkthrough
+## Code walkthrough
 
 `trackerServer` is run by the server for a given torrent file. It listens
 for connections from other seeder or leecher clients and keeps a list of 
